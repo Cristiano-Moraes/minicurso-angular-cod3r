@@ -2,6 +2,13 @@
     background-color: rgb(59, 47, 38);
     width: 160px;
 }
+.sidenav a{
+    color:darkgray;
+}
 .sidenav i {
     padding-right: 10px;
+}
+.content{
+    padding: 16px;
+    background-color: rosybrown;
 }

@@ -9,6 +9,10 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
 import { MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
+import { MatCardModule } from '@angular/material/card';
+import { HomeComponent } from './views/home/home.component';
+import { ProdutoComponent } from './views/produto/produto.component';
+import { CriarProdutoComponent } from './components/produto/criar-produto/criar-produto.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +20,9 @@ import {MatListModule} from '@angular/material/list';
     HeaderComponent,
     FooterComponent,
     NavComponent,
+    HomeComponent,
+    ProdutoComponent,
+    CriarProdutoComponent,
   ],
   imports: [
     BrowserModule,
@@ -23,7 +30,8 @@ import {MatListModule} from '@angular/material/list';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
